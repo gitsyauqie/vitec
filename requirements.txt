@@ -1,0 +1,24 @@
+# VITEC — main environment (python 3.10)
+#
+# NOTE: the normaliser and the whole evaluation protocol use the standard library
+# only. L2_normalizer.py, eval_protocol_v2.py, paired_test.py, selective_apply.py
+# and apply_fixed_tau.py import nothing from this file. Install it only if you need
+# training or inference.
+
+# --- tokenisation (data preparation) ---
+tokenizers>=0.13,<0.20
+
+# --- correction model (training + inference) ---
+torch>=1.13,<2.4
+fairseq==0.12.2
+# CASTLE architecture lives in a separate repo, loaded via fairseq --user-dir:
+#   https://github.com/syauqiezjut/CASTLE-GEC
+# set CASTLE_ROOT to its checkout (see README §Setup)
+
+# --- deployment benchmark ---
+# torch.quantization.quantize_dynamic — included in torch above
+
+# --- OCR: SEPARATE ENVIRONMENT, incompatible pins ---
+# conda create -n paddleocr python=3.8
+# pip install paddlepaddle paddleocr==2.8.1
+# (easyocr for the second engine in Tab. ocr: pip install easyocr)

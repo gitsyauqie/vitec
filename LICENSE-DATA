@@ -1,0 +1,37 @@
+ITIEC dataset and derived knowledge resources
+=============================================
+
+Licensed under the Creative Commons Attribution-NonCommercial 4.0 International
+License (CC BY-NC 4.0).
+
+    https://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to share and adapt this material for NON-COMMERCIAL purposes,
+provided you give appropriate credit and indicate if changes were made.
+
+Covered by this licence:
+  - ITIEC-Real: images, region crops, annotations, split files
+  - ITIEC-Syn: generated corpus and its metadata
+  - resources/algospeak_dict.json
+  - semantic_kg.json
+  - all prediction CSVs in results/
+
+Not covered (MIT — see LICENSE):
+  - all source code in src/, scripts/, synthetic/
+
+Additional conditions
+---------------------
+
+1. Research and non-commercial use only.
+
+2. The corpus was compiled from publicly available Indonesian sources. Only text
+   regions relevant to the correction task were retained; no personal account
+   identifiers, user metadata, or faces were collected or are released. Do not
+   attempt to re-identify sources or subjects.
+
+3. The data contains moderation-evading algospeak, including terms referring to
+   sensitive topics. These are included solely as linguistic objects of study and
+   do not reflect the views of the authors. Do not use this material to build
+   systems whose purpose is to evade content moderation.
+
+4. If you redistribute or build on this data, carry these conditions forward.

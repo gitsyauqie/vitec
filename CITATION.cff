@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: >-
+  VITEC — Knowledge-Constrained Normalisation and Selective Neural Correction
+  for Indonesian Text-in-Image Errors
+message: If you use this software or dataset, please cite the paper.
+type: software
+authors:
+  - family-names: Marier
+    given-names: Syauqie M.
+repository-code: https://github.com/gitsyauqie/vitec
+abstract: >-
+  A modular offline pipeline for correcting Indonesian text appearing in images:
+  region-level OCR, deterministic knowledge-based orthographic normalisation, and
+  confidence-gated neural correction. Includes the ITIEC dataset (653 real images /
+  804 annotated sentences plus a synthetic corpus), a layered evaluation protocol
+  with bootstrap confidence intervals and paired significance testing, and the
+  per-sentence predictions behind every reported number.
+keywords:
+  - grammatical error correction
+  - optical character recognition
+  - Indonesian
+  - algospeak
+  - text normalisation
+  - low-resource NLP
+  - knowledge-based systems
+license: MIT
+license-url: https://github.com/gitsyauqie/vitec/blob/main/LICENSE
+preferred-citation:
+  type: article
+  title: >-
+    Knowledge-Constrained Normalisation and Selective Neural Correction for
+    Indonesian Text-in-Image Errors
+  authors:
+    - family-names: Marier
+      given-names: Syauqie M.
+  year: 2026
+  notes: Under review. Journal, volume, and DOI to be added on acceptance.

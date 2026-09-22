@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# environments
+.venv/
+venv/
+env/
+
+# large artefacts — distribute as release assets, not in git
+*.pt
+*.ckpt
+*.bin
+semantic_kg*.json
+data/raw/
+data/processed/
+data/testcrops/
+models/
+logs/
+*.tgz
+*.tar.gz
+
+# never commit
+.env
+*.key
+secrets*
+

@@ -1,0 +1,6 @@
+id,category,source,hyp,kalimat_koreksi,teks_asli,teks_ternormalisasi
+1,ALG,tutup k3pala anda,tutup kepala anda,tutup kepala anda,tutup k3pala anda,tutup kepala anda
+2,ALG,parkir d1l4rang,parkir dilarang,parkir dilarang,parkir d1l4rang,parkir dilarang
+3,EJA,saya makan nasi,saya memakan nasi,saya memakan nasi,saya makan nasi,saya makan nasi
+4,EJA,rumah di grobogan,rumah di grobagi,rumah di grobogan,rumah di grobogan,rumah di grobogan
+5,SEM,dia pergi kepasar,dia pergi ke pasar,dia pergi ke pasar,dia pergi kepasar,dia pergi kepasar
